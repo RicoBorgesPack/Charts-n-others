@@ -1,5 +1,6 @@
 <div (mouseover)="changeText=true" (mouseout)="changeText=false" id="saldo">
-    <h1 *ngIf="!changeText">Ver Saldo <mat-icon>visibility</mat-icon></h1>
+  <h1 *ngIf="!changeText">Ver Saldo <mat-icon>visibility</mat-icon>
+  </h1>
   <h1 *ngIf="changeText">243$</h1>
-  </div>
+</div>
 <app-table></app-table>

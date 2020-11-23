@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @Component({
@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  warning(){
+  warning() {
     alert("Nosso sistema de login está em manutenção, aguarde os proximos updates");
   }
 

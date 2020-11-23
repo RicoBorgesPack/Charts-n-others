@@ -74,11 +74,11 @@ export class LineComponent implements OnInit {
   }
 
 
-constructor() { }
+  constructor() { }
 
-ngOnInit(): void {
-  Highcharts.chart('container-line', this.options)
-}
+  ngOnInit(): void {
+    Highcharts.chart('container-line', this.options)
+  }
 
 }
 

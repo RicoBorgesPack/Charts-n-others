@@ -1,5 +1,5 @@
 <div *ngFor="let advs of adv$ | async">
-<mat-card>
+  <mat-card>
     <mat-card-header>
       <div mat-card-avatar></div>
       <mat-card-title>{{advs.nome}}</mat-card-title>
@@ -11,9 +11,9 @@
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button ><a href="https://api.whatsapp.com/send?l=pt_BR&phone={{advs.pais}}{{advs.wpp}}&
+      <button mat-button><a href="https://api.whatsapp.com/send?l=pt_BR&phone={{advs.pais}}{{advs.wpp}}&
         text=Hello {{advs.nome}}, i would like to Contact you">
-    Contact</a></button>
+          Contact</a></button>
     </mat-card-actions>
   </mat-card>
 </div>
